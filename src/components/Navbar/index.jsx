@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from './style.jsx'
+import Container from './style'
 
 function Navbar() {
   return <Container>
@@ -20,6 +20,7 @@ function Navbar() {
                 <li className="nav__item">
                     <button className='nav__btn'>Login</button>
                 </li>
+                
           </ul>
       </div>
   </Container>;
