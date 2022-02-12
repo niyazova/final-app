@@ -4,7 +4,7 @@ import Container from './style'
 function Navbar() {
   return <Container>
       <div className="navbar">
-          <p className="nav__logo">Genius</p>
+          <p className="nav__logo">Best</p>
           <ul className='nav__list'>
                 <li className="nav__item">Home</li>
                 <li className="nav__item">Courses</li>

@@ -5,6 +5,7 @@ import back_img from '../../assets/girl-back.png'
 const Container = sty.div`
 .header {
     display: flex;
+    font-family: 'Roboto Mono', monospace;
 
     .header__left {
         width: 620px;
@@ -100,7 +101,19 @@ const Container = sty.div`
 
         }
     }
-}
+    .header__right {
+        margin-left: 150px;
+        margin-top: 140px;
+        .right__title {
+            font-size:50px;
+            width:520px;
+            color: #fff;
+        }
+        .right__subtitle {
+            color:#fff;
+        }
+    }
+    
 `
 
 export default Container
