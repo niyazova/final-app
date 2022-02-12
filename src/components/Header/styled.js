@@ -7,18 +7,21 @@ const Container = sty.div`
     display: flex;
 
     .header__left {
-        width: 630px;
-        height: 630px;
+        width: 580px;
+        height: 580px;
         margin-top: 180px;
-        background:bottom no-repeat;
+        background: bottom no-repeat;
         background-image: url(${back_img});
         position: relative;
-        background-size: cover;
+        background-size: contain;
 
         .left__img {
-            position:absolute;
-            margin-top: -98px;
-            height: 685px;
+            position: absolute;
+            margin-top: -81px;
+            margin-left: 100px;
+            height: 100%;
+            transform: rotate(-8deg);
+            width: 100%;
         }
     }
 }
