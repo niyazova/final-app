@@ -15,22 +15,23 @@ const Container = sty.div`
 
         .nav__logo {
             font-family: 'Cabin Sketch';
-            font-size: 25px;
+            font-size: 30px;
             color: #F5443B;
         }
         .nav__list {
+            margin-top: 25px;
             display:flex;
             justify-content: space-between;
 
             .nav__item {
-                font-size: 14px;
+                font-size: 16px;
                 margin-right: 60px;
                 color: #FFFFFF;
                 list-style: none; 
                 cursor: pointer;
 
                 #languages {
-                    margin-left: 15rem;
+                    font-size: 16px;
                     border:none;
                     outline: none;
                     font-family: 'Roboto Mono', monospace;
@@ -41,7 +42,7 @@ const Container = sty.div`
                 .nav__btn {
                     border: none;
                     outline: none;
-                    padding: 6px 26px;
+                    padding: 8px 30px;
                     border-radius: 5px;
                     background: #F5443B;
                     color: #fff;        
