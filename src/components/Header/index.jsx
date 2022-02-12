@@ -5,12 +5,22 @@ import user1 from '../../assets/user.png'
 import user2 from '../../assets/user2.png'
 import user3 from '../../assets/user3.png'
 import user4 from '../../assets/user4.png'
+import book from '../../assets/book.png'
+import light from '../../assets/light.png'
 
 function Index() {
   return <Header>
       <div className="header">
             <div className="header__left">
                 <img className='left__img' src={home_img} alt="#" />
+
+                <div className='img__box'>
+                    <img src={book}  />
+                </div>
+                <div className='img__box2'>
+                    <img src={light}  />
+                </div>
+
 
                 <div className="left__user">
                   <div className="users__imgs">

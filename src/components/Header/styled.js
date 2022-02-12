@@ -15,6 +15,30 @@ const Container = sty.div`
         position: relative;
         background-size: contain;
 
+        .img__box {
+            height:80px;
+            width: 80px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius:15px;
+            margin-left: 500px;
+            margin-top: -50px;
+            background: linear-gradient(to bottom, rgba(63, 69, 141, 0.63), rgba(63, 69, 141, 0.14));
+        }
+        .img__box2 {
+            height:80px;
+            width: 80px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius:15px;
+            margin-left: 80px;
+            background: linear-gradient(to bottom, rgba(63, 69, 141, 0.63), rgba(63, 69, 141, 0.14));
+        }
+
         .left__img {
             position: absolute;
             margin-top: -77px;
@@ -29,7 +53,7 @@ const Container = sty.div`
             width: 310px;
             border: none;
             margin-left: 380px;
-            margin-top: 455px;
+            margin-top: 350px;
             border-radius: 16px;
             display: flex;
             background: linear-gradient(to bottom, rgba(63, 69, 141, 0.63), rgba(63, 69, 141, 0.14));
