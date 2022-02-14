@@ -112,6 +112,18 @@ const Container = sty.div`
         .right__subtitle {
             color:#fff;
         }
+        .right__input {
+            margin-top: 50px;
+            height:63px;
+            width:460px;
+            border-radius: 12px;
+            background: #29293b;
+            border: none;
+            outline: none;
+            box-shadow: 0 0 35px 0px rgba(0, 0, 0, 0.6);
+            padding-left:29px;
+            font-size: 18px;
+        }
     }
     
 `

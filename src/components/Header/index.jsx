@@ -39,6 +39,7 @@ function Index() {
             <div className="header__right">
                 <h1 className='right__title'>Grow Your Skills To Advance Your Career Path.</h1>
                 <p className='right__subtitle'>We have something big for you who want to level up!</p>
+                <input type="text" className="right__input" placeholder='What do you want to learn...'/>
             </div>
       </div>
 

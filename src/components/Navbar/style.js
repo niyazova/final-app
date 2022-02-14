@@ -22,7 +22,7 @@ const Container = sty.div`
             margin-top: 25px;
             display:flex;
             justify-content: space-between;
-
+            
             .nav__item {
                 font-size: 16px;
                 margin-right: 60px;
@@ -39,7 +39,11 @@ const Container = sty.div`
                     color: #fff;
 
                 }
-                .nav__btn {
+            }
+            .nav__item-btn {
+                 list-style: none;
+            }
+            .nav__btn {
                     border: none;
                     outline: none;
                     padding: 8px 30px;
@@ -47,9 +51,17 @@ const Container = sty.div`
                     background: #F5443B;
                     color: #fff;        
                 }
+            .nav__item::after {
+                content: '';
+                width: 0%;
+                height: 2px;
+                background: grey;
+                display: block;
+                margin: auto;
+                transition: 0.5s;
             }
-            .nav__item:hover {
-                color: #fff;
+            .nav__item:hover::after {
+                width: 100%;
             }
         }
     }

@@ -17,7 +17,7 @@ function Navbar() {
                         <option value="Uzb">Uzb </option>
                     </select>
                 </li>
-                <li className="nav__item">
+                <li className="nav__item-btn">
                     <button className='nav__btn'>Login</button>
                 </li>
                 
