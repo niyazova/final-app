@@ -10,36 +10,45 @@ import light from '../../assets/light.png'
 
 function Index() {
   return <Header>
-      <div className="header">
-            <div className="header__left">
-                <img className='left__img' src={home_img} alt="#" />
+      <div className='main'>
+            <div className="header">
+                    <div className="header__left">
+                        <img className='left__img' src={home_img} alt="#" />
 
-                <div className='img__box'>
-                    <img src={book}  />
-                </div>
-                <div className='img__box2'>
-                    <img src={light}  />
-                </div>
+                        <div className='img__box'>
+                            <img src={book}  />
+                        </div>
+                        <div className='img__box2'>
+                            <img src={light}  />
+                        </div>
 
 
-                <div className="left__user">
-                  <div className="users__imgs">
-                      <img className='user__img'  src={user1}  alt="#" />
-                      <img className='user__img2'  src={user2}  alt="#" />
-                      <img className='user__img3'  src={user3}  alt="#" />
-                      <img className='user__img4'  src={user4}  alt="#" />
-                      <span className='user__img5'>+</span>
-                  </div>
-                  <div className="users__title">
-                      <p>More than 80k+ Students joined!</p>
-                  </div>
-                </div>
+                        <div className="left__user">
+                        <div className="users__imgs">
+                            <img className='user__img'  src={user1}  alt="#" />
+                            <img className='user__img2'  src={user2}  alt="#" />
+                            <img className='user__img3'  src={user3}  alt="#" />
+                            <img className='user__img4'  src={user4}  alt="#" />
+                            <span className='user__img5'>+</span>
+                        </div>
+                        <div className="users__title">
+                            <p>More than 80k+ Students joined!</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="header__right">
+                        <h1 className='right__title'>Grow Your Skills To Advance Your Career Path.</h1>
+                        <p className='right__subtitle'>We have something big for you who want to level up!</p>
+                        <input type="text" className="right__input" placeholder='What do you want to learn...'/>
+                    </div>
             </div>
-
-            <div className="header__right">
-                <h1 className='right__title'>Grow Your Skills To Advance Your Career Path.</h1>
-                <p className='right__subtitle'>We have something big for you who want to level up!</p>
-                <input type="text" className="right__input" placeholder='What do you want to learn...'/>
+            <div className="main">
+                <h2 className="main__title">What do you want to learn</h2>
+                <p className='main__subtitle'></p>
+                <div className="main__boxs">
+                    
+                </div>
             </div>
       </div>
 
