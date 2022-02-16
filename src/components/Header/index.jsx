@@ -7,14 +7,18 @@ import user3 from '../../assets/user3.png'
 import user4 from '../../assets/user4.png'
 import book from '../../assets/book.png'
 import light from '../../assets/light.png'
+import technology from '../../assets/technology.png'
+import figma from '../../assets/figma.png'
+import html from '../../assets/html.png'
+import android from '../../assets/android.png'
+
 
 function Index() {
   return <Header>
-      <div className='main'>
+      <div className='container'>
             <div className="header">
                     <div className="header__left">
                         <img className='left__img' src={home_img} alt="#" />
-
                         <div className='img__box'>
                             <img src={book}  />
                         </div>
@@ -45,8 +49,21 @@ function Index() {
             </div>
             <div className="main">
                 <h2 className="main__title">What do you want to learn</h2>
-                <p className='main__subtitle'></p>
+                <p className='main__subtitle'>Choose the right class as you need. Then enjoy studying.</p>
                 <div className="main__boxs">
+                    <div className="box__1">
+                        <img src={technology} alt="#" />
+                        <h6 box__text>Technology</h6>
+                        <h3 box__title>Digital Marketing Strategy</h3>
+                        <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
+                        <div className="users__inf">
+                            <img src={user} alt="#" />
+                            <div>
+                                <h3 classNam='user__name'>Anna</h3>
+                                <p className='user__id'>Mentor</p>
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
             </div>
