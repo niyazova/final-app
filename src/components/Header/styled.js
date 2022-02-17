@@ -6,7 +6,7 @@ const Container = sty.div`
 .container {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     .header {
         display: flex;
 
@@ -144,14 +144,55 @@ const Container = sty.div`
         }
         .main__boxs {
             display: flex;
-            margin: 50px 150px;
+            margin: 80px 100px;
             .box__1 {
-                height: 600px;
-                width:300px;
-                border: 1px solid black;
+                margin: 20px;
+                height: 430px;
+                width:320px;
+                border: none;
+                box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.8);
+                border-radius: 20px;
                 .box__img {
-                    margin: 150px;
+                  margin: 10px;
+                };
+                .box__text {
+                    font-size:13px;
+                    margin-top: -3px;
+                    margin-left: -125px;
+                    color:#3BF5BD;
+                    font-weight: 400;
+                };
+                .box__title {
+                    margin-top: -20px;
+                    color:#fff;
+                    font-weight: 400;
+                };
+                .box__subtitle {
+                    color: grey;
+                };
+                .users__inf {
+                    margin: 30px;
+                    border-top:1px solid grey;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    
+                    img {
+                        margin:15px;
+                    }
+
+                    .user__inf {
+                        margin-left: 25px;
+                        .user__name {
+                            color: #fff;
+                        }
+                        .user__id {
+                            color: #fff;
+                            margin-top: -15px;
+                        }
+                    }
                 }
+
             }
         }
 

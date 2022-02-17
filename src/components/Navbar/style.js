@@ -54,7 +54,7 @@ const Container = sty.div`
             .nav__item::after {
                 content: '';
                 width: 0%;
-                height: 2px;
+                height: 1px;
                 background: grey;
                 display: block;
                 margin: auto;

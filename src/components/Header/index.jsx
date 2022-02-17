@@ -53,26 +53,61 @@ function Index() {
                 <div className="main__boxs">
                     <div className="box__1">
                         <img className='box__img' src={technology} alt="#" />
-                        <h6 box__text>Technology</h6>
-                        <h3 box__title>Digital Marketing Strategy</h3>
+                        <h6 className='box__text'>Technology</h6>
+                        <h3 className='box__title'>Digital Marketing Strategy</h3>
                         <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
                         <div className="users__inf">
-                            <img className='box__user' src={user1} alt="#" />
                             <div>
-                                <h3 classNam='user__name'>Anna</h3>
+                            <img className='box__user' src={user1} alt="#" />
+                            </div>
+                            <div className='user__inf'>
+                                <h3 className='user__name'>Anna</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
                     </div>
                     <div className="box__1">
-                        <img className='box__img' src={tec} alt="#" />
-                        <h6 box__text>Technology</h6>
-                        <h3 box__title>Digital Marketing Strategy</h3>
+                        <img className='box__img' src={figma} alt="#" />
+                        <h6 className='box__text'>Technology</h6>
+                        <h3 className='box__title'>Digital Marketing Strategy</h3>
                         <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
                         <div className="users__inf">
-                            <img className='box__user' src={user1} alt="#" />
                             <div>
-                                <h3 classNam='user__name'>Anna</h3>
+                                <img className='box__user' src={user2} alt="#" />   
+                            </div>
+                            <div className='user__inf'>
+                                <h3 className='user__name'>Anna</h3>
+                                <p className='user__id'>Mentor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box__1">
+                        <img className='box__img' src={html} alt="#" />
+                        <h6 className='box__text'>Technology</h6>
+                        <h3 className='box__title'>Digital Marketing Strategy</h3>
+                        <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
+                        <div className="users__inf">
+                            <div>
+                                <img className='box__user' src={user3} alt="#" />
+                            </div>
+                            <div className='user__inf'>
+                                <h3 className='user__name'>Anna</h3>
+                                <p className='user__id'>Mentor</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="box__1">
+                        <img className='box__img' src={android} alt="#" />
+                        <h6 className='box__text'>Technology</h6>
+                        <h3 className='box__title'>Digital Marketing Strategy</h3>
+                        <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
+                        <div className="users__inf">
+                            <div>
+                                <img className='box__user' src={user4} alt="#" />
+                            </div>
+                            <div className='user__inf'>
+                                <h3 className='user__name'>Anna</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
