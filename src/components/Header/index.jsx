@@ -52,19 +52,34 @@ function Index() {
                 <p className='main__subtitle'>Choose the right class as you need. Then enjoy studying.</p>
                 <div className="main__boxs">
                     <div className="box__1">
-                        <img src={technology} alt="#" />
+                        <img className='box__img' src={technology} alt="#" />
                         <h6 box__text>Technology</h6>
                         <h3 box__title>Digital Marketing Strategy</h3>
                         <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
                         <div className="users__inf">
-                            <img src={user} alt="#" />
+                            <img className='box__user' src={user1} alt="#" />
                             <div>
                                 <h3 classNam='user__name'>Anna</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
                     </div>
-                    
+                    <div className="box__1">
+                        <img className='box__img' src={tec} alt="#" />
+                        <h6 box__text>Technology</h6>
+                        <h3 box__title>Digital Marketing Strategy</h3>
+                        <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
+                        <div className="users__inf">
+                            <img className='box__user' src={user1} alt="#" />
+                            <div>
+                                <h3 classNam='user__name'>Anna</h3>
+                                <p className='user__id'>Mentor</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
       </div>

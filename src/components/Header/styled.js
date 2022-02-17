@@ -142,6 +142,18 @@ const Container = sty.div`
             margin-top:-10px;
             color: #fff;
         }
+        .main__boxs {
+            display: flex;
+            margin: 50px 150px;
+            .box__1 {
+                height: 600px;
+                width:300px;
+                border: 1px solid black;
+                .box__img {
+                    margin: 150px;
+                }
+            }
+        }
 
 
     }
