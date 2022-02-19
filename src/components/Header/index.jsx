@@ -65,6 +65,9 @@ function Index() {
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
+                        <div>
+                            <button className='box__btn'>Access class</button>
+                        </div>
                     </div>
                     <div className="box__1">
                         <img className='box__img' src={figma} alt="#" />
@@ -80,6 +83,9 @@ function Index() {
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
+                        <div>
+                            <button className='box__btn'>Access class</button>
+                        </div>
                     </div>
                     <div className="box__1">
                         <img className='box__img' src={html} alt="#" />
@@ -94,6 +100,9 @@ function Index() {
                                 <h3 className='user__name'>Anna</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
+                        </div>
+                        <div>
+                            <button className='box__btn'>Access class</button>
                         </div>
                     </div>
                     
@@ -111,6 +120,10 @@ function Index() {
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
+                        <div>
+                            <button className='box__btn'>Access class</button>
+                        </div>
+                        
                     </div>
 
 

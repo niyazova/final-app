@@ -143,12 +143,13 @@ const Container = sty.div`
             color: #fff;
         }
         .main__boxs {
+            height:520px;
             display: flex;
             margin: 80px 100px;
             .box__1 {
                 margin: 20px;
-                height: 430px;
                 width:320px;
+                height:410px;
                 border: none;
                 box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.8);
                 border-radius: 20px;
@@ -171,7 +172,7 @@ const Container = sty.div`
                     color: grey;
                 };
                 .users__inf {
-                    margin: 30px;
+                    margin: 10px 30px;
                     border-top:1px solid grey;
                     display: flex;
                     flex-direction: row;
@@ -192,7 +193,27 @@ const Container = sty.div`
                         }
                     }
                 }
-
+                .box__btn {
+                    display: none;
+                    height: 45px;
+                    width: 150px;
+                    margin: 18px;
+                    background:#F5443B;
+                    color: #fff;
+                    border-radius:10px;
+                    border: none;
+                    font-size:14px
+                }
+                
+            }
+            .box__1:hover .box__btn {
+                margin-left:70px;
+                display: block;
+            }
+            .box__1:hover {
+                min-height:500px;
+                transition: all 0.3s ;
+                
             }
         }
 
