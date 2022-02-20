@@ -219,6 +219,9 @@ const Container = sty.div`
 
 
     }
+    section {
+        margin: 60px 150px;
+    }
 }
 `
 

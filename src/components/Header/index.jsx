@@ -11,6 +11,7 @@ import technology from '../../assets/technology.png'
 import figma from '../../assets/figma.png'
 import html from '../../assets/html.png'
 import android from '../../assets/android.png'
+import section from '../../assets/section.png'
 
 
 function Index() {
@@ -130,6 +131,9 @@ function Index() {
 
                 </div>
             </div>
+            <section>
+                <img src={section} alt="#" />
+            </section>
       </div>
 
   </Header>  
