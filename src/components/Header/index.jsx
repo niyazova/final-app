@@ -131,9 +131,39 @@ function Index() {
 
                 </div>
             </div>
-            <section>
+            <div className='section'>
                 <img src={section} alt="#" />
-            </section>
+            </div>
+            <div className="footer">
+                <div className="footer__box">
+                    <p className='footer__logo'>Best</p>
+                    <p>Any feedback or questions?</p>
+                    <p>Contact us on our social media</p>
+                </div>
+                <div className="footer__box">
+                    <p className='footer__title'>Menu</p>
+                    <p>Home</p>
+                    <p>Courses</p>
+                    <p>Webinar</p>
+                </div>
+                <div className="footer__box">
+                    <p className='footer__title'>Services</p>
+                    <p>Materials Update</p>
+                    <p>Trusted Mentor</p>
+                    <p>Free E-book</p>
+                    <p>Meeting</p>
+                </div>
+                <div className="footer__box">
+                    <p className='footer__title'>Further Information</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div className="footer__box">
+                    <p className='footer__title'>Apps Download</p>
+                    <p>Google Play Store</p>
+                    <p>App Store</p>
+                </div>
+            </div>
       </div>
 
   </Header>  

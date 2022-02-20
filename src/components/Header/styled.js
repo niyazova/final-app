@@ -219,8 +219,26 @@ const Container = sty.div`
 
 
     }
-    section {
+    .section {
         margin: 60px 150px;
+    }
+    .footer {
+        margin: 60px 140px;
+        display: flex;
+        justify-content: space-around;
+        .footer__logo {
+            font-family: 'Cabin Sketch';
+            font-size: 25px;
+            color: #F5443B;
+        }
+        .footer__title {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 700px;
+        }
+        p {
+            color: grey;
+        }
     }
 }
 `
