@@ -204,6 +204,12 @@ const Container = sty.div`
                     border: none;
                     font-size:14px
                 }
+                .box__btn:hover {
+                    cursor: pointer;
+                    background:none;
+                    border: 1px solid #F5443B;
+                    color: #F5443B;
+                }
                 
             }
             .box__1:hover .box__btn {

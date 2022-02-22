@@ -1,14 +1,15 @@
-import Navbar from './components/Navbar'
-import Header from './components/Header'
 import Login from './components/Login'
+import Home from './components/Home'
+import {Routes, Route} from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-      <Navbar />
-      <Header />
-      <Login/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 }

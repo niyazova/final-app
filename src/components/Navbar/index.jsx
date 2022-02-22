@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from './style'
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   return <Container>
@@ -18,7 +19,9 @@ function Navbar() {
                     </select>
                 </li>
                 <li className="nav__item-btn">
-                    <button className='nav__btn'>Login</button>
+                    <Link to='/login'>
+                        <button className='nav__btn'>Login</button>
+                    </Link>
                 </li>
                 
           </ul>
