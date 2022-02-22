@@ -15,7 +15,7 @@ const Container = sty.div`
 
         .nav__logo {
             font-family: 'Cabin Sketch';
-            font-size: 30px;
+            font-size: 35px;
             color: #F5443B;
         }
         .nav__list {
