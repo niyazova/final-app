@@ -17,7 +17,7 @@ function Login() {
               <input type="password" className='login__input' placeholder='password...' />
               <button className="login__btn">sign in</button>
           </div>
-        <Link to='/sign-up'>Don't have an account?</Link>
+        <Link className='login__link' to='/sign-up'>Don't have an account?</Link>
           </div>
       </div>
   </Container>;

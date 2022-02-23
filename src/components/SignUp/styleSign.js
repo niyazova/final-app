@@ -18,7 +18,7 @@ const Container = sty.div`
             color: #F5443B;
         }
         .login__box {
-            height:500px;
+            height:580px;
             width: 450px;
             border: none;
             border-radius:25px;
@@ -32,7 +32,6 @@ const Container = sty.div`
                 display:flex;
                 flex-direction: column;
                 margin-left:60px;
-                margin-bottom:25px;
                 label {
                     font-size:13px;
                     margin: 10px;
@@ -64,6 +63,12 @@ const Container = sty.div`
                     border: 1px solid #F5443B;
                     color: #F5443B;
                 }
+            }
+            .login__link {
+               font-size: 12px;
+               margin-left:65px;
+               color:grey;
+               margin-bottom:55px;
             }
         }
     }
