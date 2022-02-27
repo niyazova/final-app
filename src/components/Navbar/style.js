@@ -44,13 +44,19 @@ const Container = sty.div`
                  list-style: none;
             }
             .nav__btn {
-                    border: none;
-                    outline: none;
-                    padding: 8px 30px;
-                    border-radius: 5px;
-                    background: #F5443B;
-                    color: #fff;        
-                }
+                border: none;
+                outline: none;
+                padding: 8px 30px;
+                border-radius: 5px;
+                background: #F5443B;
+                color: #fff;    
+                cursor: pointer;    
+            }
+            .nav__btn:hover {
+                background:none;
+                border: 1px solid #F5443B;
+                color: #F5443B;
+            }
             .nav__item::after {
                 content: '';
                 width: 0%;
