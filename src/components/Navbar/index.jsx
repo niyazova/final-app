@@ -13,7 +13,9 @@ function Navbar() {
             <li className="nav__item">Courses</li>
           </Link>
           <li className="nav__item"> Webinar</li>
-          <li className="nav__item">Pricing</li>
+          <Link to="/price">
+            <li className="nav__item">Pricing</li>
+          </Link>
           <li className="nav__item">
             <select id="languages">
               <option value="Eng">Eng</option>

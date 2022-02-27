@@ -14,6 +14,7 @@ import android from '../../assets/android.png'
 import section from '../../assets/section.png'
 
 
+
 function Index() {
   return <Header>
       <div className='container'>
@@ -62,7 +63,7 @@ function Index() {
                             <img className='box__user' src={user1} alt="#" />
                             </div>
                             <div className='user__inf'>
-                                <h3 className='user__name'>Anna</h3>
+                                <h3 className='user__name'>Ellisa Ruth</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
@@ -72,15 +73,15 @@ function Index() {
                     </div>
                     <div className="box__1">
                         <img className='box__img' src={figma} alt="#" />
-                        <h6 className='box__text'>Technology</h6>
-                        <h3 className='box__title'>Digital Marketing Strategy</h3>
-                        <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
+                        <h6 className='box__text'>Design</h6>
+                        <h3 className='box__title'>Figma Fundamental</h3>
+                        <p className="box__subtitle">These lessons and exercises will help <br/> you start designing with Figma ...</p>
                         <div className="users__inf">
                             <div>
                                 <img className='box__user' src={user2} alt="#" />   
                             </div>
                             <div className='user__inf'>
-                                <h3 className='user__name'>Anna</h3>
+                                <h3 className='user__name'>Araya Sheila</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
@@ -90,15 +91,15 @@ function Index() {
                     </div>
                     <div className="box__1">
                         <img className='box__img' src={html} alt="#" />
-                        <h6 className='box__text'>Technology</h6>
-                        <h3 className='box__title'>Digital Marketing Strategy</h3>
-                        <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
+                        <h6 className='box__text'>Coding</h6>
+                        <h3 className='box__title'>HTML Fundamental</h3>
+                        <p className="box__subtitle">Well organized and easy to make you understand tutorials with lots of ...</p>
                         <div className="users__inf">
                             <div>
                                 <img className='box__user' src={user3} alt="#" />
                             </div>
                             <div className='user__inf'>
-                                <h3 className='user__name'>Anna</h3>
+                                <h3 className='user__name'>Joey Piere</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>
@@ -109,15 +110,15 @@ function Index() {
                     
                     <div className="box__1">
                         <img className='box__img' src={android} alt="#" />
-                        <h6 className='box__text'>Technology</h6>
-                        <h3 className='box__title'>Digital Marketing Strategy</h3>
-                        <p className="box__subtitle">This course aims to give you deeper understanding of core processes ...</p>
+                        <h6 className='box__text'>Codingy</h6>
+                        <h3 className='box__title'>Android App Development</h3>
+                        <p className="box__subtitle">Take your Android coding skills to the next level, advanced Android app ...</p>
                         <div className="users__inf">
                             <div>
                                 <img className='box__user' src={user4} alt="#" />
                             </div>
                             <div className='user__inf'>
-                                <h3 className='user__name'>Anna</h3>
+                                <h3 className='user__name'>Wendy Troye</h3>
                                 <p className='user__id'>Mentor</p>
                             </div>
                         </div>

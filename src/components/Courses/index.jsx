@@ -3,7 +3,9 @@ import Container from './styleCourse'
 
 function Courses() {
   return (
-    <div>Course</div>
+    <div className="section">
+        
+    </div>
   )
 }
 

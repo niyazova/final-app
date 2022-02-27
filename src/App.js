@@ -2,6 +2,7 @@ import Login from './components/Login'
 import SignUp from './components/SignUp'
 import Home from './components/Home'
 import Courses from './components/Courses'
+import Price from './components/Price'
 import {Routes, Route} from 'react-router-dom'
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/price" element={<Price />} />
       </Routes>
     </div>
   );
