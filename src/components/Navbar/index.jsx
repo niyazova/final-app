@@ -12,7 +12,9 @@ function Navbar() {
           <Link to="/courses">
             <li className="nav__item">Courses</li>
           </Link>
-          <li className="nav__item"> Webinar</li>
+          <Link to='/students'>
+            <li className="nav__item">Students</li>
+          </Link>
           <Link to="/price">
             <li className="nav__item">Pricing</li>
           </Link>
