@@ -112,7 +112,7 @@ function Index() {
                         <img className='box__img' src={android} alt="#" />
                         <h6 className='box__text'>Codingy</h6>
                         <h3 className='box__title'>Android App Development</h3>
-                        <p className="box__subtitle">Take your Android coding skills to the next level, advanced Android app ...</p>
+                        <p className="box__subtitle">Take your Android coding skills to the <br/> next level, advanced Android app ...</p>
                         <div className="users__inf">
                             <div>
                                 <img className='box__user' src={user4} alt="#" />

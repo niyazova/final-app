@@ -2,3 +2,6 @@
   background: linear-gradient(to right top, #29293b, #171836);
   min-height: 100vh;
 }
+a{
+  text-decoration: none;
+}
