@@ -36,10 +36,10 @@ const Container = sty.div`
                 padding:23px 35px;
                 font-size:18px;
                 font-weight: 400;
-                color: grey;
+                color: #fff;
             }
             .list__item:hover{
-                box-shadow: 0 0 35px 0px rgba(0, 0, 0, 0.2);
+                box-shadow: 0 0 35px 0px rgba(0, 0, 0, 0.5);
                 color:#F5443B;
             }
         }
@@ -73,6 +73,35 @@ const Container = sty.div`
         border: 1px solid #F5443B;
         border-radius: 18px;
         box-shadow: 0 0 35px 0px rgba(0, 0, 0, 0.6);
+        .right__top {
+            margin: 35px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 25px;
+            border-bottom: 1px solid grey;
+            .right__logo {
+                font-size:24px;
+                color:#F5443B;
+                margin-bottom: 10px;
+                font-weight: 500;
+            }
+            .box {
+                display: flex;
+                align-items: center;
+                .right__title {
+                    font-size: 20px;
+                    color: #F5443B;
+                    margin-right: 20px;
+                }
+            }
+
+        }
+        .right__subtitle {
+            margin: 55px 90px;
+            font-size:19px;
+            color: #fff;
+        }
         .right__button {
             position: absolute;
             right:30px;
