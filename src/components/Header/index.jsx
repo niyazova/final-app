@@ -135,6 +135,8 @@ function Index() {
             <div className='section'>
                 <img src={section} alt="#" />
             </div>
+            <div className="location">
+            </div>
             <div className="footer">
                 <div className="footer__box">
                     <p className='footer__logo'>Best</p>
