@@ -3,9 +3,9 @@ import Container from './stylePrice'
 
 function Price() {
   return (
-    <div className="section">
-        Price
-    </div>
+    <Container className="section">
+        
+    </Container>
   )
 }
 
